@@ -1,0 +1,172 @@
+/* VARIABLES */
+
+:root {    
+    --theme-font: Arial, sans-serif;
+    --header-font: Arial, sans-serif;
+}
+
+/* CSS */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    font-family: var(--theme-font);
+/*    background: url(https://cdn1.vectorstock.com/i/1000x1000/35/15/forest-background-nature-landscape-evergreen-vector-25623515.jpg) -400px 200px fixed repeat-x; */
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--header-font);
+    font-weight: 100;
+}
+
+ul li,
+p {
+    line-height: 1.8em;
+}
+
+ul {
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul li:before {content: "\2764            ";margin-right:5px;color:#92010d}
+
+a {
+    color: #019286; /* Nerolac Danish Blue */
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.headline {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+/* GRID */
+
+.wrapper {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: middle;
+    justify-content: space-between;
+}
+
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header nav ul li {
+    padding: 0 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.item {
+    padding: 1em;
+    flex-basis: 1000px;
+}
+
+.item-left {
+    flex-shrink: 1;
+}
+
+.item-right {
+    flex-shrink: 2;
+}
+
+.footer {
+    text-align: right;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    .wrapper { width:57%; }
+    #secondary { width:30%; margin-left:3%;}      
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  
+    #primary { width:57%; }
+    #secondary { width:30%; margin-left:3%;}      
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    
+    
+  }
