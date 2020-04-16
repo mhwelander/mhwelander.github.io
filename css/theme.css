@@ -40,6 +40,7 @@ ul li {
     margin-left: 0;
     padding-left: 0;
 }
+
 ul li:before {content: "\2764            ";margin-right:5px;color:#92010d}
 
 a {
@@ -100,6 +101,15 @@ a {
 
 .footer {
     text-align: right;
+}
+
+.post {
+    border-bottom: 1px solid #aaa;
+}
+
+.post span {
+    color: #aaa;
+    font-size: 0.9em;
 }
 
 /* 
