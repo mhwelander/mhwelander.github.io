@@ -110,7 +110,19 @@ a {
 }
 
 .item-right {
-  flex-shrink: 2;
+  flex-shrink: 1.8;
+}
+
+.item-right nav {
+  margin-top: 5.5rem;
+}
+
+.item-right nav li {
+  list-style-type: disc;
+}
+
+.item-right nav li::before {
+  content: "";
 }
 
 .footer {
@@ -133,7 +145,7 @@ a {
 
 @media (min-width: 1281px) {
   .wrapper {
-    width: 57%;
+    width: 70%;
   }
   #secondary {
     width: 30%;
