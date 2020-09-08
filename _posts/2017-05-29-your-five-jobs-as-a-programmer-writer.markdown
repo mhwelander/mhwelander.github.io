@@ -34,7 +34,7 @@ If you are a single writer working for a large team, you will have the most comp
 
 ## 📹 Video producer
 
-There are plenty of ways to communicate information, and [video is set to take over the internet (apparently...)](http://tubularinsights.com/2019-internet-video-traffic/). Although it would be nice to produce video content for every topic, there are only so many hours in the day. Here are some tips for getting video content out the door quickly:
+There are plenty of ways to communicate information, and [video is set to take over the internet (apparently...)](https://tubularinsights.com/2019-internet-video-traffic/). Although it would be nice to produce video content for every topic, there are only so many hours in the day. Here are some tips for getting video content out the door quickly:
 
 - Prioritise video content for critical information – such as overviews or topics related to security.
 - Keep it short! 5 – 7 minute long videos are easier to produce and easier to consume.
