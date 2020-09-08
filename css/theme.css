@@ -37,6 +37,10 @@ h1 {
   margin-bottom: 2em;
 }
 
+a.noline {
+  border-bottom: 0;
+}
+
 a:hover {
   background: deeppink;
   color: white;
