@@ -2,7 +2,7 @@
 layout: post
 title: "Your five jobs as a programmer writer"
 date: 2017-05-29
-categories: sitecore
+categories: tech-writing
 ---
 
 On July 1st, I will have been a Programmer Writer at Sitecore for a whole year! It is a fun and challenging job that requires you to switch hats many times during the course of a day.
