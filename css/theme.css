@@ -28,6 +28,16 @@ h3 {
   font-weight: 100;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+.post-meta {
+  color: lightslategrey;
+  font-size: 0.8em;
+  margin-bottom: 2em;
+}
+
 a:hover {
   background: deeppink;
   color: white;
@@ -142,10 +152,6 @@ a {
 .footer {
   text-align: right;
   font-size: 0.8em;
-}
-
-.post {
-  border-bottom: 1px solid #aaa;
 }
 
 .post span {
