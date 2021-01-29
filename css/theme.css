@@ -78,13 +78,17 @@ a {
   font-weight: 100;
 }
 
+.highlight {
+  padding: 5px 10px;
+}
+
 /* GRID */
 
 .wrapper {
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.5);
   /* border-left: 20px solid #019286; */
-  padding: 20px;
+  padding: 20px 0;
   background: #fff;
 }
 
@@ -172,7 +176,7 @@ a {
 
 @media (min-width: 1281px) {
   .wrapper {
-    width: 60%;
+    width: 45%;
   }
   #secondary {
     width: 30%;
@@ -187,7 +191,7 @@ a {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   #primary {
-    width: 57%;
+    width: 45%;
   }
   #secondary {
     width: 30%;
