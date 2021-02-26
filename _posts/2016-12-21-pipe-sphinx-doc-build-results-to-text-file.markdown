@@ -2,6 +2,7 @@
 layout: post
 title: "Pipe Sphinx Doc build results to text file"
 date: 2016-12-21
+categories: tech
 ---
 
 I wanted to pipe the results of the Sphinx Doc build into a text file so that I could address any errors or warnings. I started with this (I’m using Windows 8.1):
