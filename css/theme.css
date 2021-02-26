@@ -1,116 +1,252 @@
 /* VARIABLES */
 
-:root {    
-    --theme-font: Arial, sans-serif;
-    --header-font: Arial Helvetica, sans-serif;
+:root {
+  --theme-font: Arial, sans-serif;
+  --header-font: 'Lucida Console'
 }
 
 /* CSS */
 
 html {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 body {
-    margin: 0;
-    display: flex;
-    font-family: var(--theme-font);
-/*    background: url(https://cdn1.vectorstock.com/i/1000x1000/35/15/forest-background-nature-landscape-evergreen-vector-25623515.jpg) -400px 200px fixed repeat-x; */
-}
+  margin: 0;
+  font-family: var(--theme-font);
+  background-color: #fff;}
 
 h1,
 h2,
 h2 a,
 h3 {
-    font-family: var(--header-font);
-    font-weight: 100;
+  font-family: var(--header-font);
+  font-weight: 100;
+  padding: 1em 0;
 }
 
+h1 {
+  font-size: 3.5em;
+  padding: 0.5em 0;
+  margin: 0;
+  color: yellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: -3px -3px #02a2fe, -3px -3px #02a2fe, 2px 2px #02a2fe;
+  }
+
+  h2 {
+    padding: 0.5em 0;
+  }
+
+h3 {
+  padding: 0.2em;
+  color: #02a2fe;
+  border-bottom: 2px dashed;
+  font-size: 1em;
+}
+
+blockquote {
+  padding: 0 1.5em;
+  border: 2px dashed deeppink;
+}
+  
+.container strong {
+  background: linear-gradient(104deg, rgba(255, 130, 203, 0) 0.9%, rgba(247, 255, 130,1.25) 2.4%, rgba(247, 255, 130, 0.788) 5.8%, rgba(247, 255, 130,0.1) 93%, rgba(247, 255, 130,0.7) 96%, rgba(247, 255, 1302,0) 98%), linear-gradient(183deg, rgba(247, 255, 130,0) 0%, rgba(247, 255, 130,0.3) 7.9%, rgba(247, 255, 130,0) 15%);
+  padding: 0.2em 5px;
+  -webkit-box-decoration-break: clone;
+  border-radius: 7.5px;
+  text-shadow: -12px 12px 9.8px rgba(247, 255, 130,0.7), 21px -18.1px 7.3px rgba(255, 255, 255,1), -18.1px -27.3px 30px rgba(255, 255, 255,1);
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  background: maroon;
+  flex: auto;
+  padding: 10px;
+  margin: 10px;
+}
+
+.post-meta {
+  color: lightslategrey;
+  font-size: 0.8em;
+  margin-bottom: 2em;
+}
+
+a.noline {
+  border-bottom: 0;
+}
+
+a:hover {
+  background: deeppink;
+  color: white;
+  border-bottom: 0;
+}
+
+ol {
+  counter-reset: li;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 10px;
+
+}
+
+ol  li {
+  position: relative;   
+  padding-left: 40px;
+}
+
+
+ol li:before {
+  content: counter(li);
+  counter-increment: li;
+  height: 25px;
+  width: 25px;
+  background: deeppink;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;      
+  font-weight: bold;
+  left: 0;
+  top: 0;
+}
+
+ol li,
 ul li,
 p {
-    line-height: 1.8em;
+  line-height: 1.8em;
 }
 
 ul {
-    margin-left: 10px;
-    padding-left: 0;
+  margin-left: 10px;
+  padding-left: 0;
 }
 
 ul li {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
-ul li:before {content: "\2764            ";margin-right:5px;color:#92010d}
+ul li:before {
+  content: "\2764            ";
+  margin-right: 5px;
+  color: deeppink;
+}
 
 a {
-    color: #019286; /* Nerolac Danish Blue */
-    border-bottom: 1px dotted;
-    text-decoration: none;
-    font-weight: bold;
+  color: #000; /* Nerolac Danish Blue */
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-
-
 .headline {
-    font-size: 1.5em;
-    font-weight: 100;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.highlight {
+  padding: 5px 10px;
 }
 
 /* GRID */
 
 .wrapper {
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 20px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+  /* border-left: 20px solid #019286; */
+  padding: 20px 0;
+  background: #fff;
+  
+}
+
+.headerWrapper {
+  border-bottom: 1px solid black;
+  padding: 2em;
 }
 
 .header {
-    display: flex;
-    align-items: middle;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .header nav ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
+  margin-top: 6px;
 }
 
 .header nav ul li {
-    padding: 0 1em;
+  padding: 0 1em;
+}
+
+.header nav ul li a {
+  color: #000;
+  font-size: 0.8em;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block {
+  display: block;
 }
 
 .item {
-    padding: 1em;
-    flex-basis: 1000px;
+  padding: 1em;
+  flex-basis: 1000px;
+}
+
+.item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.item-right img {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
 }
 
 .item-left {
-    flex-shrink: 1;
+  flex-shrink: 0.8;
 }
 
 .item-right {
-    flex-shrink: 2;
+  flex-shrink: 1.8;
+}
+
+.item-right nav {
+  margin-top: 5.5rem;
+}
+
+.item-right nav li {
+  list-style-type: disc;
+}
+
+.item-right nav li::before {
+  content: "";
 }
 
 .footer {
-    text-align: right;
-}
-
-.post {
-    border-bottom: 1px solid #aaa;
+  text-align: right;
+  font-size: 0.8em;
 }
 
 .post span {
-    color: #aaa;
-    font-size: 0.9em;
+  color: #aaa;
+  font-size: 0.9em;
 }
 
 /* 
@@ -119,65 +255,229 @@ a {
 */
 
 @media (min-width: 1281px) {
-  
-    .wrapper { width:57%; }
-    #secondary { width:30%; margin-left:3%;}      
-    
+  .wrapper {
+    width: 45%;
   }
-  
-  /* 
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+/* 
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-  
-    #primary { width:57%; }
-    #secondary { width:30%; margin-left:3%;}      
-    
-    
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #primary {
+    width: 45%;
   }
-  
-  /* 
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+/* 
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    
-    
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    
-    
-  }
-  
-  /* 
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
 
-    
-  }
-  
-  /* 
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    
-    
+
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+/* Rainbow dividers */
+
+/*
+ * CSS animated rainbow dividers of awesome 
+ * by Chris Heilmann @codepo8 and Lea Verou @leaverou 
+**/
+@-moz-keyframes charlieeee {
+  from {
+    background-position: top left;
   }
+  to {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes charlieeee {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+@-o-keyframes charlieeee {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+@-ms-keyframes charlieeee {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+@-khtml-keyframes charlieeee {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+@keyframes charlieeee {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: top right;
+  }
+}
+.catchadream {
+  background-image: -webkit-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: -o-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: -ms-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: -khtml-linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-image: linear-gradient(
+    left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -moz-animation: charlieeee 2.5s forwards linear infinite;
+  -webkit-animation: charlieeee 2.5s forwards linear infinite;
+  -o-animation: charlieeee 2.5s forwards linear infinite;
+  -khtml-animation: charlieeee 2.5s forwards linear infinite;
+  -ms-animation: charlieeee 2.5s forwards linear infinite;
+  -lynx-animation: charlieeee 2.5s forwards linear infinite;
+  animation: charlieeee 2.5s forwards linear infinite;
+  background-size: 50% auto;
+}
+#tongue {
+  position: cheek;
+}
+/* ^ OMG! An ID! That kills performance! */
+
+/*
+  .catchadream:after{content:'廌'}
+
+*/
+/* ^ uncomment to add unicorn */
