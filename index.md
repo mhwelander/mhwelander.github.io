@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Hej hej! 
+title: Hello
 ---
 
 I'm Martina 👋 I work as an 💻Education Engineer on the Product team at <a href="https://prisma.io">Prisma</a> (TypeScript, Node.JS, Rust), and previously worked as a 📚 Documentation Manager at <a href="https://sitecore.com/">Sitecore</a> (C#, .NET Core). Sometimes I also 🎨 <a href="https://instagram.com/marhwel.art">paint and draw</a>.
