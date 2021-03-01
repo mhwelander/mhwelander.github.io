@@ -134,7 +134,7 @@ ul li {
 }
 
 ul li:before {
-  content: "\2764            ";
+  content: "♥            ";
   margin-right: 5px;
   color: deeppink;
 }
