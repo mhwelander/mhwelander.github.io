@@ -6,7 +6,7 @@ layout: default
 title: Hello
 ---
 
-I'm Martina 👋 I work as a Techncial Writer at <a href="https://tactilegames.dk">Tactile Games</a> 🎮, and previously worked as an Education Engiener at <a href="http://wwwp.prisma.io/">Prisma</a>, 📚 Documentation Manager at <a href="https://sitecore.com/">Sitecore</a> (C#, .NET Core). Sometimes I also 🎨 <a href="https://instagram.com/marhwel.art">paint and draw</a>.
+I'm Martina 👋 I work as a Techncial Writer at <a href="https://www.tactilegames.com">Tactile Games</a> 🎮, and previously worked as an Education Engiener at <a href="http://wwwp.prisma.io/">Prisma</a>, 📚 Documentation Manager at <a href="https://sitecore.com/">Sitecore</a> (C#, .NET Core). Sometimes I also 🎨 <a href="https://instagram.com/marhwel.art">paint and draw</a>.
 
 <img src="database.jpg" width=400 />
 
