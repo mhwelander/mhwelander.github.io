@@ -1,8 +1,10 @@
 /* VARIABLES */
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;500&display=swap');
+
 :root {
   --theme-font: Arial, sans-serif;
-  --header-font: 'Lucida Console'
+  --header-font: 'Ubuntu', sans-serif;
 }
 
 /* CSS */
@@ -25,11 +27,12 @@ body {
     margin-bottom: -200px;
 }
 
+
 h1,
 h2,
 h2 a,
 h3 {
-  font-family: var(--header-font);
+  font-family: 'Anton', sans-serif;
   font-weight: 100;
   padding: 1em 0;
 }
@@ -39,7 +42,6 @@ h1 {
   padding: 0 0 0.5em 0;
   margin: 0;
   color: yellow;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-shadow: -3px -3px #02a2fe, -3px -3px #02a2fe, 2px 2px #02a2fe;
   }
 
