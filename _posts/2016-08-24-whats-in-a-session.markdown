@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "What's in a session?"
+title: "What's in a session?: What exactly happens during a session, and how does the xDB know who you are?"
 date: 2016-08-24
 categories: tech
-permalink: /2018/01/08/9-0-update-1-new-in-xconnect-and-xdb/
+permalink: 2016/08/24/whats-in-a-session-what-exactly-happens-during-a-session-and-how-does-the-xdb-know-who-you-are/
 ---
 
 This blog post follows on from [Let's Talk About Session State](https://mhwelander.net/2016/05/19/lets-talk-about-session-state/). Now that we understand the role played by session state in the xDB, let's take a closer look at what exactly happens during a session -- and how xDB is able to keep track of us across sessions.

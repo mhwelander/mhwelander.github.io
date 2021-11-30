@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tech Writing Blog"
+title: "Tech writing blog"
 permalink: /tech-writing-blog/
 ---
 
