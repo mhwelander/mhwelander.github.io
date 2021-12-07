@@ -1,10 +1,10 @@
 /* VARIABLES */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 :root {
   --theme-font: Arial, sans-serif;
-  --header-font: 'Ubuntu', sans-serif;
+  --header-font: 'Anton', sans-serif;
 }
 
 /* CSS */
