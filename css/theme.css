@@ -43,6 +43,7 @@ h1 {
   margin: 0;
   color: #fdfd96;
   text-shadow: -3px 1px #88aed0, -3px -2px #88aed0, 3px 1px #88aed0;
+  font-weight:bold;
   }
 
 h2, h3, h4 {
