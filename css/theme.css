@@ -38,11 +38,11 @@ h3 {
 
 h1 {
   font-family: 'Noto Serif', sans-serif;
-  font-size: 3.5em;
+  font-size: 4.2em;
   padding: 0 0 0.5em 0;
   margin: 0;
   color: #fdfd96;
-  text-shadow: -3px -3px #88aed0, -3px -3px #88aed0, 2px 2px #88aed0;
+  text-shadow: -3px 1px #88aed0, -3px -2px #88aed0, 3px 1px #88aed0;
   }
 
 h2, h3, h4 {
