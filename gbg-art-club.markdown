@@ -6,8 +6,6 @@ permalink: /gothenburg-art-club/
 
 Gothenburg Art Club was founded in **April, 2019** and generally meets in Condeco or Slottskogen.
 
-> 📣 Due to the COVID-19 pandemic, all clubs meet [online only](online-art-club).
-
 Join events on Meetup
 ---------------------
 
