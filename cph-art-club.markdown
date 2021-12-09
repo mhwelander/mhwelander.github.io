@@ -6,8 +6,6 @@ permalink: /copenhagen-art-club/
 
 Copenhagen Art Club was founded in **November, 2019** and generally meets in Paludan Café, Botanisk Have, or Kongens Have.
 
-> 📣 Due to the COVID-19 pandemic, all clubs meet [online only](online-art-club).
-
 ## Join events on Meetup
 
 Sign up for a [meetup.com](https://www.meetup.com/) account and [join the Copenhagen Art Club group](https://www.meetup.com/Copenhagen-Drawing-Club/). Events are posted regularly.

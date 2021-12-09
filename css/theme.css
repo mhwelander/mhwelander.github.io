@@ -51,7 +51,7 @@ h2, h3, h4 {
 }
 
   h2 {
-    padding: 0.5em 0;
+    padding: 0.5em 0 0.5 0;
     font-size: 2.3em;
     font-family: 'Noto serif', sans-serif
   }
@@ -59,13 +59,12 @@ h2, h3, h4 {
 h3 {
   padding: 0.2em;
   color: #88aed0;
-  border-bottom: 2px dashed;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 blockquote {
-  padding: 0 1.5em;
-  border: 2px dashed deeppink;
+  padding: 0.5em 1em;
+  background: rgb(193, 226, 224);
 }
   
 .container strong {
@@ -124,7 +123,7 @@ ol li:before {
   counter-increment: li;
   height: 25px;
   width: 25px;
-  background: deeppink;
+  background: #d399ac ;
   color: white;
   border-radius: 50%;
   text-align: center;
@@ -151,16 +150,15 @@ ul li {
   padding-left: 0;
 }
 
-ul li:before {
+ul li:before {  
   content: "♥            ";
   margin-right: 5px;
-  color: deeppink;
+  color: #d399ac;
 }
 
 a {
-  color: #000; /* Nerolac Danish Blue */
-  border-bottom: 1px dotted;
-  text-decoration: none;
+  color: #6f8da7; /* Nerolac Danish Blue */
+  text-decoration: underline;
   font-weight: bold;
 }
 
