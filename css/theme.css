@@ -192,6 +192,7 @@ a {
   width: 60%;
   max-width: 1300px;
   margin: 0 auto;
+  min-height:60px;
 }
 
 .header nav ul {
@@ -302,6 +303,9 @@ a {
   */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  .header,
   .wrapper {
     width: 75%;
   }
@@ -314,12 +318,15 @@ a {
 
 @media (min-width: 320px) and (max-width: 1024px) {
 
+  .header,
   .wrapper {
     width: 90%;
   }
 
+  nav { display: none; }
+
   h1 {
-    font-size: 5em;
+    font-size: 4em;
     padding-bottom: 0;
     margin-bottom: 0;
   }
