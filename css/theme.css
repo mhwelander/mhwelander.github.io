@@ -10,7 +10,7 @@
 /* CSS */
 
 html {
-  font-size: 100%;
+  font-size: 90%;
 }
 
 body {
@@ -326,9 +326,10 @@ a {
   nav { display: none; }
 
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     padding-bottom: 0;
     margin-bottom: 0;
+    text-shadow: -1px 1px #88aed0, -2px -2px #88aed0, 2px 1px #88aed0;
   }
 }
 
