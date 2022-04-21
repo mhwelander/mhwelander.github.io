@@ -289,7 +289,7 @@ a {
 @media (min-width: 1281px) {
   .wrapper {
     width: 60%;
-    max-width: 1200px;
+    max-width: 980px;
   }
   #secondary {
     width: 30%;
