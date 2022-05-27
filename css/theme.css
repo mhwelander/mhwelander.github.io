@@ -215,7 +215,16 @@ a {
   font-weight: normal;
   font-family: Arila, sans-serif;
   text-decoration: none;
+
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
 }
+
+nav label, #hamburger { display: none; }
+
 
 .container {
   display: flex;
@@ -322,8 +331,6 @@ a {
   .wrapper {
     width: 90%;
   }
-
-  nav { display: none; }
 
   h1 {
     font-size: 3em;
