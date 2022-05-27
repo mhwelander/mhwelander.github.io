@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-  --theme-font: 'Georgia', serif;
+  --theme-font: 'Arial', sans-serif;
   --header-font: 'Noto Serif', sans-serif;
 }
 
@@ -94,13 +94,11 @@ blockquote {
   margin-bottom: 2em;
 }
 
-a.noline {
-  border-bottom: 0;
+.brand img {
+  filter: invert();
 }
 
-a:hover {
-  background: deeppink;
-  color: white;
+a.noline {
   border-bottom: 0;
 }
 
@@ -151,7 +149,7 @@ ul li {
   padding-left: 0;
 }
 
-ul li:before {  
+.container ul li:before {  
   content: "♥            ";
   margin-right: 5px;
   color: #d399ac;
@@ -182,8 +180,9 @@ a {
 }
 
 .headerWrapper {
-  padding: 1.1em 0 0.3em 0;
+  padding: 0.8em 0 0.3em 0;
   box-shadow: 0px 2px 9px 1px rgba(121, 134, 136, 0.63);
+  background: #000;
 }
 
 .header {
@@ -192,7 +191,7 @@ a {
   width: 60%;
   max-width: 1300px;
   margin: 0 auto;
-  min-height:60px;
+  min-height:50px;
 }
 
 .header nav ul {
@@ -210,7 +209,7 @@ a {
 }
 
 .header nav ul li a {
-  color: #000;
+  color: #fff;
   font-size: 0.8em;
   font-weight: normal;
   font-family: Arila, sans-serif;
@@ -298,7 +297,7 @@ nav label, #hamburger { display: none; }
 @media (min-width: 1281px) {
   .wrapper {
     width: 60%;
-    max-width: 1200px;
+    max-width: 980px;
   }
   #secondary {
     width: 30%;
