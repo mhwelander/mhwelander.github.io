@@ -147,13 +147,15 @@ ul {
 ul li {
   list-style-type: none;
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 23px;
 }
 
 .container ul li:before {  
   content: "♥            ";
   margin-right: 5px;
   color: #d399ac;
+  margin-left: -23px;
+  font-size: 20px;
 }
 
 a {
@@ -185,23 +187,31 @@ a:hover {
 }
 
 .headerWrapper {
-  padding: 1.4em 0 2.3em 0;
+  padding: 2.2em 0 2.8em 0;
   background: #FFCCE4;
   position:relative;
 }
 
+/* 
+
+    background: linear-gradient( 45deg, pink 50%, blue 50%, transparent 55%) 0 0,
+                linear-gradient(-45deg, pink 50%, blue 50%, transparent 55%) 0 0;
+
+                */
+
 .headerWrapper:after {
-  background: linear-gradient(-45deg, #ffffff 16px, transparent 0), linear-gradient(45deg, #ffffff 16px, transparent 0);
-  background-position: left-bottom;
+  background: 
+    linear-gradient(-45deg, #ffffff 16px, rgba(121, 121, 121, 0.1) 18px, transparent 0) 0 0, 
+    linear-gradient(45deg, #ffffff 16px, rgba(121, 121, 121, 0.1) 18px, transparent 0) 0 0;
   background-repeat: repeat-x;
-  background-size: 32px 32px;
+  background-size: 32px 32px, 32px 32px;
   content: " ";
   display: block;
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  height: 32px;
+  height: 24px;
 }
 
 .header {
