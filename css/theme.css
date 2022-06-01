@@ -19,6 +19,10 @@ body {
   font-size: 1.1em;
   background-color: #fff;}
 
+body.post h1 {
+  font-size: 3.2em;
+}
+
 .all {
   display: block;
     min-height: 100%;
@@ -97,6 +101,8 @@ blockquote {
 .brand img {
   /* filter: invert(); */
   opacity: 0.8;
+  margin-top:-10px;
+  transform: rotate(-3deg)
 }
 
 a.noline {
