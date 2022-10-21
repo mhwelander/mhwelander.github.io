@@ -3,12 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Hello
+title: Hej!
 ---
 
-I'm Martina 👋 I work as a Techncial Writer at <a href="https://www.tactilegames.com">Tactile Games</a> 🎮. Previously I worked as an Education Engineer at <a href="http://wwwp.prisma.io/">Prisma</a> and a Documentation Manager at <a href="https://sitecore.com/">Sitecore</a> (C#, .NET Core). Sometimes I also 🎨 <a href="https://instagram.com/marhwel.art">paint and draw</a>.
-
-<img src="database.jpg" width=400 />
+I'm Martina 👋 I work as a Technical Writer at <a href="https://www.tactilegames.com">Tactile Games</a> 🎮. Previously I worked as an Education Engineer at <a href="http://wwwp.prisma.io/">Prisma</a> and a Documentation Manager at <a href="https://sitecore.com/">Sitecore</a> (C#, .NET Core). Sometimes I also 🎨 <a href="https://instagram.com/marhwel.art">paint and draw</a>.
 
 You can find me on <a href="https://twitter.com/mhwelander">Twitter</a> and <a href="https://github.com/mhwelander">GitHub</a>. For bizniz, head over to <a href="https://www.linkedin.com/in/martinawelander/">LinkedIn</a>.
 
