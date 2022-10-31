@@ -48,7 +48,7 @@ h3 {
 
 h1 {
   font-family: 'Noto Serif', sans-serif;
-  font-size: 4.2em;
+  font-size: 3.8em;
   padding: 0 0 0.3em 0;
   margin: 0;
   color: #fdfd96;
@@ -71,7 +71,7 @@ h2 {
 h3 {
   padding: 0.2em;
   font-size: 1.4em;
-  color: #02a2fe;
+  color: #88aed0;
 }
 
 blockquote {
@@ -154,7 +154,7 @@ p {
 
 .container p,
 .container li {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 ul {
@@ -241,8 +241,9 @@ a:hover {
   width: 60%;
   max-width: 1300px;
   margin: 0 auto;
-  min-height: 80px;
-  z-index: -1;
+  z-index: 999999;
+  position: relative;
+  margin-bottom: -30px;
 }
 
 .header nav ul {
@@ -250,15 +251,20 @@ a:hover {
   list-style-type: none;
   margin-top: 6px;
   z-index: 1000;
+  align-items: flex-start;
 }
 
 .header nav ul li {
   transform: rotate(4deg);
   background: white;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   padding: 0;
   margin-right: 10px;
   box-shadow: 0px 0 3px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 
@@ -281,7 +287,6 @@ a:hover {
   background-image: radial-gradient(#fafafa 10%, transparent 10%),
     radial-gradient(#fafafa 10%, transparent 10%);
   background-color: #ef9a98;
-  opacity: 0.7;
   background-position: 0 0, 25px 25px;
   background-size: 50px 50px;
   font-weight: bold;

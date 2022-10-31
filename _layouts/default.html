@@ -30,7 +30,7 @@
     <div class="header">
       
       <div class="brand">
-      <a href="/" class="noline"><img src="/logo.png" height="65"/></a>
+      <a href="/" class="noline"></a>
   </div> 
       <nav>
         <label for="hamburger">&#9776;</label>
@@ -53,8 +53,6 @@
                 </a>
               </li>
 
-             
-              
               
                   <li>
                       <a href="/art-club">
@@ -70,7 +68,7 @@
                   
                   <li>
                     <a>
-                      <s>Organised Home</s>
+                      <s>Stories</s>
                     </a>
                 </li>   
             </ul>
@@ -83,7 +81,12 @@
         
 
         <div class="container">
+        
             <div class="item">
+
+              {% if page.url != "/" %}
+              <a href="/" style="text-decoration: none;">&larr;</a>
+              {% endif %}
 
               <h1>{{ page.title }}</h1>
 
