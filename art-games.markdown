@@ -43,3 +43,17 @@ These are the art games that you can expect to play at the café drawing session
 2.  Spend ten minutes designing a character that incorporates all three words.
 
 3.  Share your creation!
+
+## Three word world
+
+1. Choose three characteristics for an imaginary world - for example:
+
+   - There's no gravity
+   - Everyone is at least part lizard
+   - All creatures share a body with at least one other creature
+
+2. Design a creature that would live in this world.
+
+## Draw from memory
+
+Try to draw a well-known cartoon or animated character from memory - like Pikachu or Donald Duck.
