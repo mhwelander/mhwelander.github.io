@@ -11,7 +11,7 @@ Here are some of the key changes made to xConnect and the xDB in the recently re
 xDB.Tracker identifier available as a constant
 ----------------------------------------------
 
-Any contact that visits your website is given a [tracker identifier](http://doc.sitecore.net/developers/xp/xconnect/xconnect-model/contacts/contact-identifiers.html#tracker-identifier). The identifier is a GUID (the same GUID represented by\
+Any contact that visits your website is given a [tracker identifier](http://doc.sitecore.net/developers/xp/xconnect/xconnect-model/contacts/contact-identifiers.html#tracker-identifier). The identifier is a GUID (the same GUID represented by
 `Sitecore.Analytics.Tracker.Current.Contact.ContactId`) and the identifier source is "xDB.Tracker". In 9.0.1, the identifier source is available as a constant: `Sitecore.Analytics.XConnect.DataAccess.Constants.IdentifierSource`. This means that you can retrieve a contact by his or her tracker identifier without hard-coding the source.
 
 Trigger interaction outcomes with custom data from tracker
