@@ -273,7 +273,7 @@ a:hover {
 }
 
 .header nav ul li:first-child a {
-  font-size: 1.3em;
+  font-size: 0.9em;
   padding: 7px;
   color: rgb(64, 56, 56);
   text-shadow: rgba(255, 255, 255, 1);
