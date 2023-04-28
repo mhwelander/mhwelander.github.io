@@ -10,7 +10,7 @@ I'm Martina 👋 I work as a Technical Writer at <a href="https://www.tactilegam
 
 You can find me on <a href="https://twitter.com/mhwelander">Twitter</a> and <a href="https://github.com/mhwelander">GitHub</a>. For bizniz, head over to <a href="https://www.linkedin.com/in/martinawelander/">LinkedIn</a>.
 
-## Examples
+## Documentation examples
 
 Check out the following examples of content that I have created:
 
