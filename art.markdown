@@ -13,5 +13,3 @@ Nordic Art Club is a group of people that meet up to play [art games](/art-games
 - _Art Club Online (Discord)_
 
 Follow [@nordic.art.club](http://www.instagram.com/nordic.art.club) for pictures of our delightful creations.
-
-## Blog

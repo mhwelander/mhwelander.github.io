@@ -5,4 +5,4 @@ permalink: /blog/
 category: tech
 ---
 
-More @ [mhwelander.net](http://mhwelander.net)
+You can find my old technical blog at [http://sitecoremartina.wordpress.com](http://sitecoremartina.wordpress.com).
